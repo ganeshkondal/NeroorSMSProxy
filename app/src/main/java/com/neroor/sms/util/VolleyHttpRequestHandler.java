@@ -19,7 +19,7 @@ import com.neroor.sms.util.Logger;
  */
 
 public class VolleyHttpRequestHandler {
-    private static final String REQ_URL = "http://www.neroor.com/appt-mgr-servlet/apptmgr?";
+    private static final String REQ_URL = ""; // no need to have this in github
 
     //singleton queue reference
     private static RequestQueue queue = null;
