@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/build/intermediates/res/merged/debug/menu/sms.xml",
+        "source": "/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/src/main/res/menu/sms.xml"
+    },
+    {
         "merged": "/Users/ganeshkondal/code/android-sms/NeroorSMSProxy/app/build/intermediates/res/merged/debug/menu/sms.xml",
         "source": "/Users/ganeshkondal/code/android-sms/NeroorSMSProxy/app/src/main/res/menu/sms.xml"
     }

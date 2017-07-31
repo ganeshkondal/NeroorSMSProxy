@@ -33,6 +33,7 @@ public class PersistentMessageQueue<Message>
 
         // send to Neroor
         requestHandler.sendAppointmentRequest((com.neroor.sms.data.Message) obj);
+        removeItemOnReachingMaxLimit();
         return super.add((Message) obj);
     }
 
@@ -42,8 +43,18 @@ public class PersistentMessageQueue<Message>
 
         // send to Neroor
         requestHandler.sendAppointmentRequest((com.neroor.sms.data.Message) obj);
+        removeItemOnReachingMaxLimit();
         super.add(index, (Message) obj);
 
+    }
+
+    private void removeItemOnReachingMaxLimit(){
+        Logger.print(SmsActivity.TAG, " Removign Message from the Queue: ");
+
+        if( size() >= MAX_MESSAGE_COUNT ) {
+            // remove the first element
+            Logger.print(SmsActivity.TAG, " Removed Message " + remove( 0 ));
+        }
     }
 
 }

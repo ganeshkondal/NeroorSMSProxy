@@ -8,4 +8,5 @@ import com.neroor.sms.data.Message;
 
 public abstract class MessageQueue<Message> extends ArrayList<Message> {
 
+    protected static final int MAX_MESSAGE_COUNT = 100;
 }

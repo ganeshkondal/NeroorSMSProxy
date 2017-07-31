@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ganeshkondal/.android/build-cache/f63397bbca47fa4032ff1977bcddf75b173ea754/output/jars/classes.jar"
+        jar="/Users/ganeshkondal/.android/build-cache/0da40f26f8b136322ee3d13c47688891cac97fc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/classes_480782253748f86df8bb215ffcce707ff72c3c48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ganeshkondal/.android/build-cache/2fbec98e6e04fdb6dcdcdc65a9d367e013ec247c/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/ganeshkondal/code/android-sms/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/classes_0bd9b14e7c29689927a43764e9fe7c91fee5df9e.jar" />
+        <dex dex="/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/classes_3f66a47e177dad01e9ea062825d6a48e5acbfacf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ganeshkondal/.android/build-cache/e039c4929a840ee6f1fa0ad65752bdc5244dee65/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/classes_1badf3eb55098a84a4d8c1c166d52cc9668ba4fd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -17,16 +35,7 @@
         optimize="true"
         revision="25.0.3"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/ganeshkondal/code/android-sms/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2d184ba9784e5b82bc13b8c7f74566d2ea4847c9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ganeshkondal/.android/build-cache/a06cb8e345fbb66ab799ccbe9290538d2cadb14f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/Users/ganeshkondal/code/android-sms/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/classes_81e48b0e71c66ba567a88429f3f7261fd62e811b.jar" />
+        <dex dex="/Users/ganeshkondal/code/neroor/NeroorSMSProxy/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_2d184ba9784e5b82bc13b8c7f74566d2ea4847c9.jar" />
     </item>
 
 </items>

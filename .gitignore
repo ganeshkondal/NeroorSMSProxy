@@ -1,0 +1,5 @@
+.idea/*
+.gradle/*
+gen/
+app/build/
+app/gradle.3.3/

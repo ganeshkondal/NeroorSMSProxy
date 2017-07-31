@@ -13,4 +13,9 @@ public class Logger{
     public static void print(String tag, Object o){
         Log.i( tag, o.toString() );
     }
+
+    public static void print(String tag, String o){
+        Log.i( tag, o );
+    }
+
 }

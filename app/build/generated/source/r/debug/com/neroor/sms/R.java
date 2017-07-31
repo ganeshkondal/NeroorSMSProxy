@@ -35,6 +35,8 @@ public final class R {
         public static final int hello_world=0x7f050002;
     }
     public static final class style {
+        /**  Customize your theme here. 
+         */
         public static final int AppTheme=0x7f060000;
     }
 }
