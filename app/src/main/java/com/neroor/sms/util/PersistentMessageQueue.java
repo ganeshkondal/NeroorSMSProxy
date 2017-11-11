@@ -33,7 +33,7 @@ public class PersistentMessageQueue<Message>
 
         // send to Neroor
         requestHandler.sendAppointmentRequest((com.neroor.sms.data.Message) obj);
-        removeItemOnReachingMaxLimit();
+        //removeItemOnReachingMaxLimit();
         return super.add((Message) obj);
     }
 
@@ -43,7 +43,7 @@ public class PersistentMessageQueue<Message>
 
         // send to Neroor
         requestHandler.sendAppointmentRequest((com.neroor.sms.data.Message) obj);
-        removeItemOnReachingMaxLimit();
+        //removeItemOnReachingMaxLimit();
         super.add(index, (Message) obj);
 
     }

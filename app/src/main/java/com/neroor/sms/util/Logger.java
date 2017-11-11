@@ -6,9 +6,6 @@ import android.util.Log;
  */
 public class Logger{
 
-    public static void print(Object o){
-        System.out.println( o );
-    }
 
     public static void print(String tag, Object o){
         Log.i( tag, o.toString() );
