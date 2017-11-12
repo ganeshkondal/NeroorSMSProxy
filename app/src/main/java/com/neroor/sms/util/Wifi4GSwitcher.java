@@ -86,6 +86,7 @@ public class Wifi4GSwitcher {
 
 
         }
+        return true;
 
     }
 

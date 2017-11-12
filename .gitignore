@@ -1,5 +1,6 @@
 .idea/*
 .gradle/*
 gen/
-app/build/
+app/build/*
 app/gradle.3.3/
+app/.gradle/*

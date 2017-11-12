@@ -17,6 +17,7 @@ import com.neroor.sms.data.Message;
 import com.neroor.sms.util.PersistentMessageQueue;
 import com.neroor.sms.util.MessageQueue;
 import com.neroor.sms.service.SmsManager;
+import com.neroor.sms.util.Wifi4GSwitcher;
 /**
  * Primary activity in this app. Provides a list view of messages received /handled.
  * Makes use of a persistent message queue as the view model holder (via the ArrayAdapter)
@@ -82,6 +83,9 @@ public class SmsActivity extends Activity implements OnItemClickListener {
      * Called by the SMS handler. updates the backing list (MessageQueue)
      */
     private void updateList(final Message smsMessage) {
+        Wifi4GSwitcher.
+
+
         print( "Message List size : " + smsMessagesList.size());
         arrayAdapter.insert(smsMessage, 0);
         //arrayAdapter.add(smsMessage) // comes to the last in the view
