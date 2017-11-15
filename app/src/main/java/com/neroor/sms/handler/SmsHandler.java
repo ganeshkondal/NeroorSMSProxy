@@ -39,6 +39,7 @@ public class SmsHandler extends WakefulBroadcastReceiver {
             // inst.updateList(messageReceived);
 
 
+
             SmsManager.updateList( messageReceived );
         }
     }

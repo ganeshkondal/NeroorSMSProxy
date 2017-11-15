@@ -25,6 +25,15 @@ public class Wifi4GSwitcher {
     }
 
     static String LOG_TAG = "WIFI_DATA_TOGGLE";
+
+    /**
+     * If Wifi is not working switch it off, so 4g starts working automatically.
+     * If 4g is not working then switch on wifi so it can connect and try.
+     *
+     * @param context
+     * @return
+     * @throws NoConnectionException
+     */
     static boolean toggleWifi4G(Context context) throws NoConnectionException{
 
         boolean toggleComplete = false;
@@ -82,9 +91,6 @@ public class Wifi4GSwitcher {
                 Logger.print(LOG_TAG, " Enabling Mobile Data DID work !!!!");
                 return wifiSwitchedOn;
             }
-
-
-
         }
         return true;
 

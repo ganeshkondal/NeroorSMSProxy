@@ -11,6 +11,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.neroor.sms.NeroorApp;
 import com.neroor.sms.data.Message;
 import com.neroor.sms.util.Logger;
+import com.neroor.sms.event.EventManager;
+import com.neroor.sms.event.EventType;
+
+
 
 /**
  * Class that enables sending of request to Neroor.com to obtain apppointments
@@ -47,6 +51,9 @@ public class VolleyHttpRequestHandler {
             public void onErrorResponse(VolleyError error) {
                 Logger.print("N_RESP", "That didn't work!" + error.toString() );
                 error.printStackTrace();
+
+                //fire a toggle to wifi or 4g event
+                EventManager.fireEvent(EventType.TOGGLE_WIFI_4G, message);
             }
         });
 
